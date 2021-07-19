@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 import "./index.css";
-import { useScrollTrigger } from "@material-ui/core";
 const Createnote = (props) => {
     const [note, setNote] = useState({
         title:'',
