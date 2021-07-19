@@ -3,8 +3,6 @@
 import React from "react";
 import "./index.css";
 import DeleteIcon from '@material-ui/icons/Delete';
-import { PinDropSharp } from "@material-ui/icons";
-
 
 function Note(props) {
     const deleteNote=()=>{
